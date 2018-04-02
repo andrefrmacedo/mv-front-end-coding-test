@@ -8,7 +8,8 @@
       "statistics": {
         "followers": 21231,
         "engagement": "6.84"
-      }
+      },
+      "following": true
     },
     {
       "full_name": "Melissa Peterson",
@@ -18,7 +19,8 @@
       "statistics": {
         "followers": 5122,
         "engagement": "5.23"
-      }
+      },
+      "following": true
     },
     {
       "full_name": "Kathryn Smith",
@@ -28,7 +30,8 @@
       "statistics": {
         "followers": 7161,
         "engagement": "2.36"
-      }
+      },
+      "following": true
     },
     {
       "full_name": "Patricia Rios",
@@ -38,7 +41,8 @@
       "statistics": {
         "followers": 91100,
         "engagement": "1.61"
-      }
+      },
+      "following": true
     },
     {
       "full_name": "Joan Robertson",
@@ -48,7 +52,8 @@
       "statistics": {
         "followers": 16013,
         "engagement": "6.28"
-      }
+      },
+      "following": true
     },
     {
       "full_name": "Sharon Hopkins",
@@ -58,7 +63,8 @@
       "statistics": {
         "followers": 37300,
         "engagement": "4.73"
-      }
+      },
+      "following": true
     },
     {
       "full_name": "Hannah Ross",
@@ -68,7 +74,8 @@
       "statistics": {
         "followers": 3300,
         "engagement": "2.53"
-      }
+      },
+      "following": false
     },
     {
       "full_name": "Emily White",
@@ -78,7 +85,8 @@
       "statistics": {
         "followers": 17800,
         "engagement": "8.74"
-      }
+      },
+      "following": false
     },
     {
       "full_name": "Olivia Wagner",
@@ -88,7 +96,8 @@
       "statistics": {
         "followers": 32100,
         "engagement": "5.21"
-      }
+      },
+      "following": false
     }
   ]
 }

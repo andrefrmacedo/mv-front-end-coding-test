@@ -14,6 +14,7 @@ json['data'].each do |i|
     instagram_username: i['instagram_username'],
     instagram_profile_image: i['instagram_profile_image'],
     followers: i['statistics']['followers'],
-    engagement: i['statistics']['engagement']
+    engagement: i['statistics']['engagement'],
+    following: i['following']
   )
 end

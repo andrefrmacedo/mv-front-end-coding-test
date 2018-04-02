@@ -5,5 +5,7 @@ class Influencer < ApplicationRecord
             :followers,
             :engagement,
             presence: true
-            
+
+  scope :sugested, -> { where(following: false) }
+  scope :starred, -> { where(following: true) }
 end

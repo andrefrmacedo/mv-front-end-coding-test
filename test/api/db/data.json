@@ -1,0 +1,94 @@
+{
+  "data": [
+    {
+      "full_name": "Anna Griffin",
+      "instagram_username": "anna_griffin_123",
+      "instagram_profile_image":
+        "https://randomuser.me/api/portraits/women/6.jpg",
+      "statistics": {
+        "followers": 21231,
+        "engagement": "6.84"
+      }
+    },
+    {
+      "full_name": "Melissa Peterson",
+      "instagram_username": "melissa_peterson",
+      "instagram_profile_image":
+        "https://randomuser.me/api/portraits/women/84.jpg",
+      "statistics": {
+        "followers": 5122,
+        "engagement": "5.23"
+      }
+    },
+    {
+      "full_name": "Kathryn Smith",
+      "instagram_username": "kat_smith",
+      "instagram_profile_image":
+        "https://randomuser.me/api/portraits/women/71.jpg",
+      "statistics": {
+        "followers": 7161,
+        "engagement": "2.36"
+      }
+    },
+    {
+      "full_name": "Patricia Rios",
+      "instagram_username": "patricia_rios_1993",
+      "instagram_profile_image":
+        "https://randomuser.me/api/portraits/women/49.jpg",
+      "statistics": {
+        "followers": 91100,
+        "engagement": "1.61"
+      }
+    },
+    {
+      "full_name": "Joan Robertson",
+      "instagram_username": "j_robertson_lol",
+      "instagram_profile_image":
+        "https://randomuser.me/api/portraits/women/26.jpg",
+      "statistics": {
+        "followers": 16013,
+        "engagement": "6.28"
+      }
+    },
+    {
+      "full_name": "Sharon Hopkins",
+      "instagram_username": "sharon_hopkins234",
+      "instagram_profile_image":
+        "https://randomuser.me/api/portraits/women/44.jpg",
+      "statistics": {
+        "followers": 37300,
+        "engagement": "4.73"
+      }
+    },
+    {
+      "full_name": "Hannah Ross",
+      "instagram_username": "hross64346",
+      "instagram_profile_image":
+        "https://randomuser.me/api/portraits/women/62.jpg",
+      "statistics": {
+        "followers": 3300,
+        "engagement": "2.53"
+      }
+    },
+    {
+      "full_name": "Emily White",
+      "instagram_username": "emwhite",
+      "instagram_profile_image":
+        "https://randomuser.me/api/portraits/women/14.jpg",
+      "statistics": {
+        "followers": 17800,
+        "engagement": "8.74"
+      }
+    },
+    {
+      "full_name": "Olivia Wagner",
+      "instagram_username": "olivia_wagner_official",
+      "instagram_profile_image":
+        "https://randomuser.me/api/portraits/women/29.jpg",
+      "statistics": {
+        "followers": 32100,
+        "engagement": "5.21"
+      }
+    }
+  ]
+}

@@ -5,10 +5,13 @@ module.exports = {
   output: {
     filename: 'bundle.js'
   },
+  resolve: {
+    extensions: ['.js', '.jsx', '.scss'],
+  },
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.(js|jsx)$/,
         exclude: /(node_modules)/,
         use: {
           loader: 'babel-loader',

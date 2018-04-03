@@ -21,6 +21,26 @@ function fetchStarredFailure(error) {
   }
 }
 
+function unStarEditRequest() {
+  return {
+    type: types.UNSTAR_EDIT_REQUEST
+  }
+}
+
+function unStarEditSuccess(influencer) {
+  return {
+    type: types.UNSTAR_EDIT_SUCCESS,
+    influencer
+  }
+}
+
+function unStarEditFailure(error) {
+  return {
+    type: types.UNSTAR_EDIT_FAILURE,
+    error
+  }
+}
+
 export function fetchStarred() {
   return dispatch => {
     dispatch(fetchStarredRequest())
@@ -33,6 +53,20 @@ export function fetchStarred() {
     })
     .catch(error => {
       dispatch(fetchStarredFailure(error.response.data.errors))
+    })
+  }
+}
+
+export function unStar(id) {
+  return dispatch => {
+    dispatch(unStarEditRequest())
+
+    return axios.put(`http://localhost:3000/unstar/${id}`, {})
+    .then(response => {
+      dispatch(unStarEditSuccess(response.data))
+    })
+    .catch(error => {
+      dispatch(unStarEditFailure(error.response.data.errors))
     })
   }
 }

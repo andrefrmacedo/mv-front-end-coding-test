@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import { fetchStarred } from '../actions/starred_actions';
+import { fetchStarred, unStar } from '../actions/starred_actions';
 import InfluencerCard from '../components/influencer_card';
 
 class Starred extends Component {
@@ -9,13 +9,21 @@ class Starred extends Component {
     this.props.fetchStarred();
   }
 
+  unStar = (id) => {
+    this.props.unStar(id);
+  }
+
   render() {
     return (
       <div>
         <h1>Starred influencers</h1>
-        {this.props.starred.list.map((influencer) => {
-          return <InfluencerCard key={influencer.id} influencer={influencer} starred />
-        })}
+        {this.props.starred.list.map((influencer) => (
+          <InfluencerCard 
+            key={influencer.id} 
+            influencer={influencer} 
+            onClick={this.unStar}
+            starred />
+        ))}
       </div>
     )
   }
@@ -28,7 +36,7 @@ function mapStateToProps(state) {
 }
 
 function mapDispatchToProps(dispatch) {
-  return bindActionCreators({ fetchStarred }, dispatch)
+  return bindActionCreators({ fetchStarred, unStar }, dispatch)
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(Starred)

@@ -41,6 +41,13 @@ function unStarEditFailure(error) {
   }
 }
 
+export function sortList(key) {
+  return {
+    type: types.SORT_LIST,
+    key
+  }
+}
+
 export function fetchStarred() {
   return dispatch => {
     dispatch(fetchStarredRequest())

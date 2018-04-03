@@ -35,7 +35,7 @@ function mapStateToProps(state) {
 }
 
 function mapDispatchToProps(dispatch) {
-  return bindActionCreators({ fetchSugested, star }, dispatch)
+  return bindActionCreators({ fetchSugested, star }, dispatch);
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(Sugested)
+export default connect(mapStateToProps, mapDispatchToProps)(Sugested);

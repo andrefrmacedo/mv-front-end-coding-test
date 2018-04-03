@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { fetchStarred } from '../actions/starred_actions';
+import InfluencerCard from '../components/influencer_card';
 
 class Starred extends Component {
   componentWillMount() {
@@ -12,6 +13,9 @@ class Starred extends Component {
     return (
       <div>
         <h1>Starred influencers</h1>
+        {this.props.starred.list.map((influencer) => {
+          return <InfluencerCard key={influencer.id} influencer={influencer} starred />
+        })}
       </div>
     )
   }

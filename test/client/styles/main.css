@@ -1,0 +1,98 @@
+body {
+  margin-top: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+svg {
+  fill: darkgrey;
+  margin-right: 0.2rem;
+}
+
+.container {
+  min-width: 80%;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.avatar-border {
+  min-width: 4.6rem;
+  max-height: 4.6rem;
+  background: linear-gradient(to right, #6C90ED , #DD8D96);
+  border-radius: 50%;
+  position: relative;
+}
+
+.avatar {
+  border-radius: 50%;
+  height: 4rem;
+  width: 4rem;
+  border: 0.3rem solid transparent;
+  position: relative;
+}
+
+.card-titles {
+  font-weight: 700;
+  height: 2.5rem;
+  font-size: 1.6rem;
+}
+
+.card {
+  height: 4.6rem;
+  padding-left: 3rem;
+  margin-bottom: 1rem;
+}
+
+.card-text {
+  color: darkgrey;
+  font-size: 1rem;
+}
+
+.stats {
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: center;
+}
+
+.with-background {
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 0.5rem;
+  border-color: #F0F0F0;
+  background-color: #F8F8F8;
+  margin-left: -1.25rem;
+  padding-left: 4rem;
+}
+
+.clickable {
+  cursor: pointer;
+  height: 4.6rem;
+  padding-top: 0.8rem;
+  color: silver;
+}
+
+.sort {
+  text-align: right;
+  padding-right: 4rem;
+  font-size: 1.2rem;
+  color: silver;
+}
+
+.sort-dropdown {
+  color: silver;
+  font-weight: 700;
+  height: 3rem;
+  margin-left: 1rem;
+  color: darkgrey;
+}
+
+.left-border {
+  border-left-style: dotted;
+  border-left-color: #F0F0F0;
+  border-left-width: 0.15rem;
+  padding-left: 4%;
+  margin-left: 0;
+}

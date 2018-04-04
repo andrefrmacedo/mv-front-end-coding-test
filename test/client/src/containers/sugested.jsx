@@ -16,7 +16,7 @@ class Sugested extends Component {
   render() {
     return (
       <div>
-        <h1>Sugested influencers</h1>
+        <h1>Sugested Influencers</h1>
         {this.props.sugested.list.map((influencer) => (
           <InfluencerCard 
             key={influencer.id} 

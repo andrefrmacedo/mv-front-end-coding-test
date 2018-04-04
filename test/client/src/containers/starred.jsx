@@ -19,16 +19,17 @@ class Starred extends Component {
 
   render() {
     return (
-      <div>
-        <h1>Starred influencers</h1>
-
-        <label hmtlfor="sort">Sort by:</label>
-        <select name="sort" id="sort" onChange={this.sortList}>
-          <option defaultValue hidden>Engagement (High - Low)</option>
-          <option value="engagement">Engagement (High - Low)</option>
-          <option value="followers">Followers (High - Low)</option>
-          <option value="name">Name</option>
-        </select>
+      <div className="row">
+        <h1 className="one-half column">Starred Influencers</h1>
+        <div className="one-half column sort">
+          <span>Sort by:</span>
+          <select className="sort-dropdown" onChange={this.sortList}>
+            <option defaultValue hidden>Engagement (High - Low)</option>
+            <option value="engagement">Engagement (High - Low)</option>
+            <option value="followers">Followers (High - Low)</option>
+            <option value="name">Name</option>
+          </select>
+        </div>
 
         {this.props.starred.list.map((influencer) => (
           <InfluencerCard 
